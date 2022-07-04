@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+/* .burgerContent{
+  width: 100%;
+  max-width: 700px;
+  display: table;
+  margin: 5% auto 0;
+} */
+
+
+
+
+
+
+
+/* .burgerIngredients{
+  height: auto;
+  width: 100%;
+  overflow: auto;
+} */
+.burgerIngredients p{
+  text-align: center;
+}
+.topSide{
+  /* background-image: url(../public/Images/bun.png); */
+  background-size: 300px;
+  height: 110px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bottomSide{
+  background-image: url(../public/Images/Burgerdown.PNG);
+  background-size: 300px;
+  height: 60px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.lettuseSide{
+  background-image: url(../public/Images/cutlet.png);
+  background-size: 300px;
+  height: 27px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+ background-position: center;
+}
+
+.cucumberSide{
+  background-image: url(../public/Images/cucumber.png);
+  background-size: 300px;
+  height: 27px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+ background-position: center;
+}
+
+.onionSide{
+  background-image: url(../public/Images/onion.png);
+  background-size: 300px;
+  height: 27px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+ background-position: center;
+}
+
+.cutletSide{
+  background-image: url(../public/Images/cutlet.png);
+  background-size: 300px;
+  height: 20px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tomatoSide{
+  background-image: url(../public/Images/tamato.png);
+  background-size: 300px;
+  height: 20px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cheeseSide{
+  background-image: url(../public/Images/mayo.png);
+  background-size: 300px;
+  height: 15px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bunSide{
+  background-image: url(../public/Images/bun.png);
+  background-size: 370px;
+  height: 49px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mayoSide{
+  background-image: url(../public/Images/mayo.png);
+  background-size: 300px;
+  height: 25px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.saladSide{
+  background-image: url(../public/Images/salad.png);
+  background-size: 300px;
+  height: 49px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ingredientsBlock{
+  background-color: #f4b46c;
+  margin: 30px auto 0;
+  display: table;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+}
+.ingredientsBlock p{
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.ingrBtns{
+  margin: 0 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.ingrBtn{
+  border: 0;
+  background-color: #c17116;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+  display: table;
+  width: 95px;
+}
+
+
+.burger_ingradient img{
+  height: 30px;
+}
+
+.burger_ingradient button{
+border: none;
+background: none;
+padding: 0px 15px;
+font-size: 25px;
+}
+.burger_ingradient p{
+padding-top: 15px;
+}
+.burger_ingradient{
+  margin-top: 40px;
+}
+
+
+
+@media screen and (min-width:1250px){
+  .burger_div{
+  display: flex;
+  justify-content: space-around;
+  }
+  .burger_div .burger_ingradient{
+      width:10%
+  }
+}
+
+
+@media screen and (min-width:575px) and (max-width:1249px) {
+  .burger_div .burger_ingradient{
+    justify-content: space-around;
+    width: 25%;
+    display: inline-table;
+}
+}
+
+@media screen and (max-width:574px) {
+  .burger_div .burger_ingradient{
+    justify-content: space-around;
+    width: 50%;
+    display: inline-table;
+}
+}
+
